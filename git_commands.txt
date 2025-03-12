@@ -5,3 +5,9 @@ git commit -m "adding testing file"
 git restore
 rm testing.py
 git rm --cached testing.py
+
+git remote add origin https://github.com/rajat6224
+git remote -v
+git status
+git remote set-url origin https://github.com/rajat6224
+git push origin master
