@@ -16,4 +16,4 @@ git fetch --all                             Fetch All Branches
 git branch -a                               Check Available Branches
 git checkout -b main origin/main            Checkout the main and master Branches Locally
 git checkout -b master origin/master        Checkout the main and master Branches Locally
-git branch                                  Verify the Local Branches
+git branch                                  Verify the Local Branches.
