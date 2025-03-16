@@ -17,4 +17,11 @@ git branch -a                               Check Available Branches
 git checkout -b main origin/main            Checkout the main and master Branches Locally
 git checkout -b master origin/master        Checkout the main and master Branches Locally
 git branch                                  Verify the Local Branches.
+git branch <branch name>                    create new branch
+git switch <branch name>                    switch from current branch to other branch
+git fetch                                   we can fetch all branches from github to local
+git checkout -b <branch name>               create new branch & go directly in it
 
+git log
+git log --oneline
+git pull origin <branch name>
