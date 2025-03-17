@@ -1,0 +1,40 @@
+Git hooks are scripts that run automatically everytime a particular event occurs in a git repository.
+
+Steps to hooks
+
+-> ls -a
+cd .git
+cd hooks
+ls
+
+Now we will use pre-commit hook 
+
+first we will create  one file in hooks folder and in that we need to write a shell script
+
+######################################
+vim pre-commit
+
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+flake8 $files
+#######################################################
+
+now we need to install flake8
+
+pip install flake8
+
+and now in our local repository we will create a file
+
+vim demo.py
+####################################################
+def my_function():
+
+   a = 5
+   return a
+
+
+my_function()
+#############################################
+
+now when we try to commit the above code, of the code is wrong it will show us an error and won't allow us to commit.
+But if the code is correct it will allow us to commit the python code.
