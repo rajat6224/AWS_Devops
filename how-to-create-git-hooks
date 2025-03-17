@@ -36,5 +36,6 @@ def my_function():
 my_function()
 #############################################
 
-now when we try to commit the above code, of the code is wrong it will show us an error and won't allow us to commit.
+*Now when we try to commit the above code, of the code is wrong it will show us an error and won't allow us to commit.
 But if the code is correct it will allow us to commit the python code.
+
