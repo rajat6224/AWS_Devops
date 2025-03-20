@@ -1,0 +1,5 @@
+error: Pulling is not possible because you have unmerged files./ HEAD detached from c87916c
+resolution: git reset --hard HEAD
+
+How to abort rebase
+resolution: git rebase --abort 
