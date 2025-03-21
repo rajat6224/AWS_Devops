@@ -1,0 +1,5 @@
+df -h 
+   to show the amount of free disk space on each mounted disk.
+
+free -hard
+   this command outputs a summary of RAM usage.   
