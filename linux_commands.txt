@@ -3,3 +3,6 @@ df -h
 
 free -hard
    this command outputs a summary of RAM usage.   
+
+scp
+   (Secure copy) we can copy files/directories from local to remote server
