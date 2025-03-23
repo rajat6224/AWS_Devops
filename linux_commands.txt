@@ -6,3 +6,7 @@ free -hard
 
 scp
    (Secure copy) we can copy files/directories from local to remote server
+
+rsync
+   ( this command is used to sync your local directory to server directory)
+
