@@ -10,3 +10,10 @@ scp
 rsync
    ( this command is used to sync your local directory to server directory)
 
+Hardlink:-
+
+Softlink:- 
+
+iwconfig
+   ( Display's & change the parameters of the network interface which are specific to the wireless operation. e.g interface name, frequency, SSID).
+
