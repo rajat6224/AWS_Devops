@@ -17,3 +17,6 @@ Softlink:-
 iwconfig
    ( Display's & change the parameters of the network interface which are specific to the wireless operation. e.g interface name, frequency, SSID).
 
+scp
+
+rsync
