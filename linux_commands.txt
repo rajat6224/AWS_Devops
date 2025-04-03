@@ -20,3 +20,7 @@ iwconfig
 scp
 
 rsync
+
+chmod
+    (We can give permission to specific file/directory)
+    
